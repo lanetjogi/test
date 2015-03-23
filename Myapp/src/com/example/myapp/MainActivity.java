@@ -35,6 +35,7 @@ public class MainActivity extends ActionBarActivity implements
 		mTitle = getTitle();
 		mNavigationDrawerFragment.setUp(R.id.navigation_drawer,
 				(DrawerLayout) findViewById(R.id.drawer_layout));
+Log.d("onCreate","onCreate");
 	}
 
 	@Override
